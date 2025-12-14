@@ -1,17 +1,50 @@
-<<<<<<< HEAD
-# react-currency-converter
-A simple currency converter built with React using real-time exchange rates.
-=======
-# React + Vite
+# React Currency Converter (Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fast and lightweight currency converter application built using **React + Vite**.  
+It allows users to convert between different currencies using real-time exchange rates.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ ## Features
 
-## Expanding the ESLint configuration
+- Convert between multiple currencies
+- Real-time exchange rates
+- Fast development with Vite
+- Responsive and clean UI
+- Built using modern React Hooks
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> d64b9a9 (created a basic react project currency converter app)
+---
+
+ ## Tech Stack
+
+- React
+- Vite
+- JavaScript
+- CSS
+- Exchange Rate API
+
+---
+
+##  Getting Started
+
+Follow these steps to run the project locally:
+
+N.B: <p>Make sure that in your ystem the node should be installed.</p>
+```bash(open cmd or terminal and execute this command)
+
+### 1. Clone the repository
+
+    git clone https://github.com/your-username/react-currency-converter.git
+
+### 2. Navigate to the project directory.
+    cd react-currency-converter
+### 3. Install dependencies
+    npm install
+### 4. Start the development server
+    npm run dev
+
+### 5. Open any browser and see your application is running on the port no 5173 on your local host
+    http://localhost:5173
+    
+
+
