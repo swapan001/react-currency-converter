@@ -29,7 +29,7 @@ It allows users to convert between different currencies using real-time exchange
 
 Follow these steps to run the project locally:
 
-N.B: **Note:** Make sure Node.js is installed on your system
+**Note:** Make sure Node.js is installed on your system
 ```bash(open cmd or terminal and execute this command)
 
 ### 1. Clone the repository
