@@ -3,6 +3,9 @@
 A fast and lightweight currency converter application built using **React + Vite**.  
 It allows users to convert between different currencies using real-time exchange rates.
 
+
+<a href="https://s-currencyconverter.netlify.app/">click me for live demo</a> 
+
 ---
 
  ## Features
@@ -30,6 +33,8 @@ It allows users to convert between different currencies using real-time exchange
 Follow these steps to run the project locally:
 
 **Note:** Make sure Node.js is installed on your system
+Make sure Git is installed on your system or <a href="https://git-scm.com/downloads">Download git</>
+
 ```bash(open cmd or terminal and execute this command)
 
 ### 1. Clone the repository
@@ -45,6 +50,13 @@ Follow these steps to run the project locally:
 
 ### 5. Open any browser and see your application is running on the port no 5173 on your local host
     http://localhost:5173
+
+
+
+
+
+
+
     
 
 
