@@ -32,8 +32,8 @@ It allows users to convert between different currencies using real-time exchange
 
 Follow these steps to run the project locally:
 
-**Note:** Make sure Node.js is installed on your system
-Make sure Git is installed on your system or <a href="https://git-scm.com/downloads">Download git</>
+**Note:**<br> Make sure Node.js is installed on your system
+and also git is installed on your system or else <a href="https://git-scm.com/downloads">Download git</a>
 
 ```bash(open cmd or terminal and execute this command)
 
