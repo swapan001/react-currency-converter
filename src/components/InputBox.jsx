@@ -13,6 +13,7 @@ function InputBox({
   className = "",
 }) {
   const amountInputId = useId();
+  const currencySelectId=useId();
 
   return (
     <div className={`flex flex-col md:flex-row gap-4 p-4 bg-white rounded-xl shadow-md ${className}`}>
@@ -27,7 +28,9 @@ function InputBox({
           placeholder="Enter amount"
           value={amount}
           disabled={amountDisable}
-          onChange={(e) => onAmountChange && onAmountChange(Number(e.target.value))}
+          onChange={
+            (e) => onAmountChange?.(e.target.value === "" ? "" : Number(e.target.value))
+            }
           className="w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 disabled:opacity-60"
         />
       </div>
@@ -36,8 +39,9 @@ function InputBox({
       <div className="w-full md:w-1/2 flex flex-col">
         <label className="text-sm font-semibold text-gray-700 mb-1">Currency Type</label>
         <select
+          id={currencySelectId}
           value={selectCurrency}
-          onChange={(e) => onCurrencyChange && onCurrencyChange(e.target.value)}
+          onChange={(e) => onCurrencyChange?.(e.target.value)}
           disabled={currencyDisable}
           className="w-full px-4 py-2 rounded-md border border-gray-300 bg-white focus:outline-none focus:ring-2 focus:ring-purple-500 disabled:opacity-60"
         >
